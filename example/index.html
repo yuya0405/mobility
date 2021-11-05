@@ -77,10 +77,9 @@
 
         <section class="body with-head">
             <nav class="nav-list">
-                <a data-do="go-forward" data-on="click" href="#typography">Typography <i class="fa fa-plus"></i></a>
-                <a data-do="go-forward" data-on="click" href="#tabs">Tabs <i class="fa fa-edit"></i></a>
-                <a data-do="go-forward" data-on="click" href="#fields">Fields <i class="fa fa-chevron-right"></i><span class="badge">42</span></a>
-                <a data-do="go-forward" data-on="click" href="#list">List <i class="fa fa-chevron-right"></i></a>
+                <p class="pad">お気に入り・その1</p>
+                <p class="pad">お気に入り・その2</p>
+                <p class="pad">お気に入り・その3</p>
             </nav>
         </section>
     </div>
@@ -96,7 +95,7 @@
         <section class="body with-head">
             <div class="row pad">
                 <div class="col-md-1 middle">
-                    <img src="images/baby-19295_640.jpg">
+                    <img src="images/hot-air-balloon-4761_640.jpg">
                 </div>
                 <div class="col-md-11">
                     <div class="focus">
@@ -134,7 +133,7 @@
         data-on="click"
         data-target="#popover">
         <nav class="nav-list">
-            <a data-do="go-forward" data-on="click" href="#typography">Typography</a>
+            <a data-do="go-forward" data-on="click" href="#typography">接客者</a>
             <a data-do="go-forward" data-on="click" href="#tabs">Tabs</a>
             <a data-do="go-forward" data-on="click" href="#fields">Fields</a>
             <a data-do="go-forward" data-on="click" href="#list">List</a>
@@ -142,47 +141,15 @@
         </nav>
     </div>
 
-    <aside id="aside-left" class="aside aside-left">
-    	<a class="btn btn-default pull-right" data-do="aside" data-on="click" href="#aside-left"><i class="fa fa-chevron-left"></i></a>
-        <h2 class="pad">Mobility</h2>
-        <nav class="nav-list">
-            <a data-do="go-forward" data-on="click" href="#basics">Basics <i class="fa fa-chevron-right"></i></a>
-            <a data-do="go-forward" data-on="click" href="#typography">Typography <i class="fa fa-plus"></i></a>
-
-            <a data-do="go-forward" data-on="click" href="#transition">Transitions <i class="fa fa-chevron-right"></i></a>
-            <a data-do="go-forward" data-on="click" href="#tabs">Tabs <i class="fa fa-edit"></i></a>
-            <a data-do="go-forward" data-on="click" href="#fields">Fields <i class="fa fa-chevron-right"></i><span class="badge">42</span></a>
-            <a data-do="go-forward" data-on="click" href="#list">List <i class="fa fa-chevron-right"></i></a>
-            <a data-do="go-forward" data-on="click" href="#refresh">Refresh <i class="fa fa-chevron-right"></i></a>
-            <a data-do="go-forward" data-on="click" href="#notify">Notify <i class="fa fa-chevron-right"></i></a>
-            <a data-do="go-forward" data-on="click" href="#hero">Hero <i class="fa fa-chevron-right"></i></a>
-        </nav>
-    </aside>
-
     <script id="home" type="text/html">
         <header class="head">
-            <a class="head-btn btn btn-default pull-left" data-do="aside" data-on="click" href="#aside-left"><i class="fa fa-bars"></i></a>
-            <a class="head-btn btn btn-default pull-right" data-do="modal-open" data-on="click" href="#modal">Open</a>
+            <a class="head-btn btn btn-default pull-right" data-do="modal-open" data-on="click" href="#modal">Share</a>
             <h1 class="title">
-                <a data-do="popover-open" data-on="click" href="#popover">Demo <i class="fa fa-caret-down"></i></a>
+                <a data-do="popover-open" data-on="click" href="#popover">TiPs <i class="fa fa-caret-down"></i></a>
             </h1>
         </header>
 
         <section class="body with-head with-foot">
-			<h4 class="pad upper">Mobility UI</h4>
-            <div class="focus">
-            	<p>Mobility is a super light weight HTML, CSS, and JS framework
-                built on top of Bootstrap for developing mobile applications.
-                Tried and tested on PhoneGap.</p>
-
-            </div>
-
-			<h4 class="pad upper">Externals</h4>
-
-            <nav class="nav-list">
-                <a href="https://github.com/cblanquera/mobility/archive/master.tar.gz">Download <i class="fa fa-external-link"></i></a>
-                <a href="https://github.com/cblanquera/mobility">Github <i class="fa fa-external-link"></i></a>
-            </nav>
 
 			<h4 class="pad upper">Themes</h4>
 
@@ -198,7 +165,6 @@
             <h4 class="pad upper">Demo</h4>
 
             <nav class="nav-list">
-                <a data-do="go-forward" data-on="click" href="#basics">Basics <i class="fa fa-chevron-right"></i></a>
             	<a data-do="go-forward" data-on="click" href="#typography">Typography <i class="fa fa-plus"></i></a>
 				<a data-do="go-forward" data-on="click" href="#transition">Transitions <i class="fa fa-chevron-right"></i></a>
                 <a data-do="go-forward" data-on="click" href="#tabs">Tabs <i class="fa fa-edit"></i></a>
@@ -208,278 +174,6 @@
                 <a data-do="go-forward" data-on="click" href="#notify">Notify <i class="fa fa-chevron-right"></i></a>
                 <a data-do="go-forward" data-on="click" href="#hero">Hero <i class="fa fa-chevron-right"></i></a>
             </nav>
-        </section>
-    </script>
-
-    <script id="basics" type="text/html">
-		<header class="head">
-            <a class="head-btn btn btn-default pull-left" data-do="go-back" data-on="click" href="#home">Back</a>
-
-            <h1 class="title">Demo - Basics</h1>
-        </header>
-
-        <section class="body with-head with-foot">
-			<h4 class="pad upper">Starting Up Mobility</h4>
-
-			<p class="pad"><code>jQuery.mobility.start();</code></p>
-
-			<h4 class="pad upper">Do On</h4>
-
-			<p class="pad">You can apply all Mobility components using a
-			concept called <code>data-do</code> and <code>data-on</code>. These 2 HTML
-			attributes are used throughout the usage of Mobility instead of relying on
-			activating components using JavaScript for ease of use.</p>
-
-			<p class="pad">The basic usage for Do On shows how to transition through different pages.</p>
-
-<pre><code class="language-html" data-lang="html">&lt;a
-  data-do="go-forward"
-  data-on="click"
-  href="#home"&gt;
-  Next Page
-&lt;/a&gt;</code></pre>
-
-			<p class="pad">The example above shows how we would setup a link to a particular page called
-			<code>#home</code>. We can complete this functionality by including the following HTML
-			into our page.</p>
-
-<pre><code class="language-html" data-lang="html">&lt;script id="home" type="text/javascript"&gt;
-  &lt;p class="pad"&gt;Welcome Home!&lt;/p&gt;
-&lt;/script&gt;</code></pre>
-
-			<p class="pad"><code>go-forward</code>, when pressed slides the screen to the left and exposes
-			our new page. You can substitute the <code>data-do="go-forward"</code> attribute with other
-			transitions like <code>data-do="go-back"</code> which will slide right,
-			<code>data-do="go-previous"</code> which slides down,
-			<code>data-do="go-forward"</code> which will slide up, or
-			<code>data-do="go-fade"</code> which will fade into the next page.</p>
-
-			<p class="pad">To see all the transitions in action you can checkout
-			<strong><a data-do="go-forward" data-on="click" href="#transition">Demo -
-			Transitions.</a></strong></p>
-
-			<h4 class="pad upper">Basic Page</h4>
-
-			<p class="pad">Almost every Mobility page will utilize a head, body and foot. The
-			example below shows the most simplistic implementation to utilize all three elements.</p>
-
-<pre><code class="language-html" data-lang="html">&lt;header class="head"&gt;
-  &hellip;
-&lt;/header&gt;
-&lt;section class="screen current with-head with-foot"&gt;
-  &hellip;
-&lt;/section&gt;
-&lt;footer class="foot"&gt;
-  &hellip;
-&lt;/footer&gt;</code></pre>
-
-			<p class="pad">If a page in your app will not be using a footer, you can omit the
-			<code>with-foot</code> in the class name. Likewise for header, you can omit the
-			<code>with-head</code> in the class name if there is no header element.</p>
-
-			<h4 class="pad upper">Header</h4>
-			<p class="pad">The following sections show how headers can be formed. Even inside the
-			header element you can fully utilize Bootstrap and custom fit it with your app.</p>
-
-			<h4 class="pad upper">Basic Header</h4>
-
-<pre><code class="language-html" data-lang="html">&lt;header class="head"&gt;
-  &lt;h1 class="title"&gt;Demo&lt;/h1&gt;
-&lt;/header&gt;</code></pre>
-
-			<h4 class="pad upper">Header With Navigation</h4>
-
-<pre><code class="language-html" data-lang="html">&lt;header class="head"&gt;
-  &lt;a
-    class="head-btn btn btn-default pull-left"
-    data-do="go-back"
-    data-on="click"
-    href="#home"&gt;
-      Back
-  &lt;/a&gt;
-  &lt;a
-    class="head-btn btn btn-default pull-right"
-    data-do="go-forward"
-    data-on="click"
-    href="#home"&gt;
-      Next
-  &lt;/a&gt;
-  &lt;h1 class="title"&gt;Demo&lt;/h1&gt;
-&lt;/header&gt;</code></pre>
-
-			<h4 class="pad upper">Header With Menu</h4>
-
-<pre><code class="language-html" data-lang="html">&lt;header class="head"&gt;
-  &lt;h1 class="title"&gt;
-    &lt;a
-      data-do="popover-open"
-      data-on="click"
-      href="#popover"&gt;
-        Demo
-        &lt;i class="fa fa-caret-down"&gt;&lt;/i&gt;&lt;/a&gt;
-  &lt;/h1&gt;
-&lt;/header&gt;
-
-&lt;div id="popover"
-  class="popover hide"
-  data-do="popover-close"
-  data-on="click"
-  data-target="#popover"&gt;
-  &lt;nav class="nav-list"&gt;
-    &lt;a
-     data-do="go-forward"
-     data-on="click"
-     href="#typography"&gt;
-       Typography
-	&lt;/a&gt;
-    &lt;a
-     data-do="go-forward"
-     data-on="click"
-     href="#tabs"&gt;
-       Tabs
-    &lt;/a&gt;
-    &lt;a
-     data-do="go-forward"
-     data-on="click"
-     href="#fields"&gt;
-       Fields
-    &lt;/a&gt;
-    &lt;a
-     data-do="go-forward"
-     data-on="click"
-     href="#list"&gt;
-       List
-    &lt;/a&gt;
-    &lt;a
-     data-do="go-forward"
-     data-on="click"
-     href="#refresh"&gt;
-       Refresh
-    &lt;/a&gt;
-  &lt;/nav&gt;
-&lt;/div&gt;</code></pre>
-
-			<h4 class="pad upper">Footer</h4>
-
-			<p class="pad">The following example show how footers can be formed. Even inside the
-			footer element you can fully utilize Bootstrap and custom fit it with your app.</p>
-
-<pre><code class="language-html" data-lang="html">&lt;footer class="foot"&gt;
-  &lt;nav class="foot-nav" data-do="foot-nav"&gt;
-    &lt;a
-      class="foot-nav-item"
-      data-do="go-back"
-      data-on="click"
-      href="#home"&gt;
-        &lt;i class="foot-nav-icon fa fa-home"&gt;&lt;/i&gt;
-        &lt;span class="foot-nav-label"&gt;
-          Home
-        &lt;/span&gt;
-    &lt;/a&gt;
-    &lt;a
-      class="foot-nav-item"
-      data-do="go-back"
-      data-on="click"
-      href="#profile"&gt;
-        &lt;i class="foot-nav-icon fa fa-user"&gt;&lt;/i&gt;
-        &lt;span class="foot-nav-label"&gt;
-          Profile
-        &lt;/span&gt;
-    &lt;/a&gt;
-    &lt;a
-      class="foot-nav-item"
-      data-do="go-back"
-      data-on="click"
-      href="#favorites"&gt;
-        &lt;i class="foot-nav-icon fa fa-star"&gt;&lt;/i&gt;
-        &lt;span class="foot-nav-label"&gt;
-          Favorites
-        &lt;/span&gt;
-    &lt;/a&gt;
-    &lt;a
-      class="foot-nav-item"
-      data-do="go-back"
-      data-on="click"
-      href="#modal"&gt;
-        &lt;i class="foot-nav-icon fa fa-search"&gt;&lt;/i&gt;
-        &lt;span class="foot-nav-label"&gt;
-          Search
-        &lt;/span&gt;
-    &lt;/a&gt;
-    &lt;a
-      class="foot-nav-item"
-      data-do="go-back"
-      data-on="click"
-      href="#modal"&gt;
-        &lt;i class="foot-nav-icon fa fa-cog"&gt;&lt;/i&gt;
-        &lt;span class="foot-nav-label"&gt;
-          Settings
-        &lt;/span&gt;
-    &lt;/a&gt;
-  &lt;/nav&gt;
-&lt;/footer&gt;</code></pre>
-
-			<h4 class="pad upper">Asides</h4>
-			<p class="pad">Asides are containers for extra content initially hidden on the left
-			and/or the right. Asides can be either (or both) activated by swipe or a trigger.</p>
-
-<pre><code class="language-html" data-lang="html">&lt;aside id="aside" class="aside aside-left"&gt;
-  &hellip;
-&lt;/aside&gt;</code></pre>
-
-			<p class="pad">If you want to create an aside on the right change
-			<code>aside-left</code> to <code>aside-right</code> in the class attribute.</p>
-
-			<h4 class="pad upper">Aside Trigger</h4>
-
-			<p class="pad">To see the trigger in action just click <strong>
-			<a data-do="aside" data-on="click" href="#aside-left">here</a></strong>.</p>
-
-
-
-<pre><code class="language-html" data-lang="html">&lt;a
-  data-do="aside-left"
-  data-on="click"
-  href="#aside"&gt;
-    Menu
-&lt;/a&gt;</code></pre>
-
-			<h4 class="pad upper">Modal</h4>
-			<p class="pad">Modals are custom popups that over take the screen.
-			To see modals in action click <strong><a data-do="modal-open"
-			data-on="click" href="#modal">Open</a></strong>.</p>
-
-<pre><code class="language-html" data-lang="html">&lt;a
-  data-do="modal-open"
-  data-on="click"
-  href="#modal"&gt;
-    Open
-  &lt;/a&gt;
-
-&lt;div id="modal" class="modal hide"&gt;
-  &lt;header class="head"&gt;
-    &lt;a
-      class="head-link pull-right"
-      href="#modal"
-      data-do="modal-close"
-      data-on="click"&gt;
-        &lt;i class="fa fa-times"&gt;&lt;/i&gt;
-    &lt;/a&gt;
-    &lt;h1 class="title"&gt;Modal&lt;/h1&gt;
-  &lt;/header&gt;
-
-  &lt;section class="body with-head"&gt;
-    &lt;p class="pad"&gt;The contents of my
-	modal go here. Lorem ipsum dolor sit
-	amet, consectetur adipisicing elit,
-	sed do eiusmod tempor incididunt ut
-	labore et dolore magna aliqua. Ut
-	enim ad minim veniam, quis nostrud
-	exercitation ullamco laboris nisi
-	ut.&lt;/p&gt;
-  &lt;/section&gt;
-&lt;/div&gt;</code></pre>
-
         </section>
     </script>
 
