@@ -976,3 +976,24 @@ form .btn {
 	margin: 10px auto;
 	width: 95%;
 }
+
+/* 追記 */
+.onimg {
+  width: 300px;        /* 画像の横幅（自由に指定） */
+  position: relative;  /* 帯の表示位置の基準とする */
+}
+
+.onimg img {
+  width: 100%;
+}
+
+.onimg p {
+  color: #fff;
+  text-align: center;
+  width: 100%;         /* 画像の幅に合わせるため */
+  padding: 10px 0;
+  position: absolute;  /* relativeの要素を基準にする */
+  left: 0;             /* 基準からみて左寄せ */
+  bottom: 0;           /* 基準からみて下寄せ */
+  background: rgba(0,0,0,0.5);  /* 半透明の背景。 */
+}

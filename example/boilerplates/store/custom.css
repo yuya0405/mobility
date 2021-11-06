@@ -8,7 +8,7 @@
 	   -moz-animation: none;
 		 -o-animation: none;
 			animation: none;
-	
+
 	border: 0;
 	border-radius: 0;
 	background-image: url(loading.gif);
@@ -17,15 +17,15 @@
 
 /* Head
 -------------------------------*/
-.head { 
-	background-color: #307ECC; 
+.head {
+	background-color: #307ECC;
 	box-shadow: 0 0 1px #F7E8F3;
 }
 
 .head-btn,
 .head-btn:hover,
 .head-btn:active,
-.head-btn:visited { 
+.head-btn:visited {
 	background-color: #307ECC;
 	border-color: #307ECC;
 	color: #FFFFFF !important;
@@ -33,7 +33,7 @@
 	margin-top: 2px;
 }
 
-.head-link { 
+.head-link {
 	background-color: #307ECC;
 	color: #FFFFFF !important;
 }
@@ -43,7 +43,7 @@
 
 .head .search-field {
 	width: 0%;
-	border-radius: 20px; 
+	border-radius: 20px;
 	display: block;
 	height: 39px;
 	float: right;
@@ -77,11 +77,11 @@
 
 /* Checkout
 -------------------------------*/
-.checkout .progress { 
-	background-color: #4D96CB; 
-	border-radius: 0; 
-	display: block; 
-	height: 10px; 
+.checkout .progress {
+	background-color: #4D96CB;
+	border-radius: 0;
+	display: block;
+	height: 10px;
 }
 
 .checkout .progress-1 { width: 25%; }
